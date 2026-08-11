@@ -1,0 +1,380 @@
+@charset "UTF-8";
+.cf {
+    clear: both;
+    display: block;
+}
+.in-mbanner-back {
+    width: 100%;
+    background: #e5e5e6;
+    background: -webkit-radial-gradient(#f2f2f2, #e3e3e3);
+    background: -o-radial-gradient(#f2f2f2, #e3e3e3);
+    background: -moz-radial-gradient(#f2f2f2, #e3e3e3);
+    background: radial-gradient(#f2f2f2, #e3e3e3);
+}
+.in-mbanner {
+    min-height: 600px;
+    background: url(https://enzactamedia.enzacta.com/prod/images/super-fruit-juice-yakunaah.png) no-repeat fixed top;
+    background-size: 624px auto;
+    background-position-y: 164px;
+}
+.in-mtitle {
+    padding-top: 205px;
+    text-align: center;
+    font-size: 15rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Open sans;
+    font-weight: 800;
+    text-shadow: 0 4px 17px rgba(0, 0, 0, 0.5);
+}
+.in-mtitle-mid {
+    text-align: center;
+    font-size: 6rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Open sans;
+    font-weight: 800;
+    text-shadow: 0 4px 17px rgba(0, 0, 0, 0.5);
+}
+.in-mcontainer {
+    width: 1170px;
+    margin: 0 auto;
+}
+.in-mcontainer-izq {
+    background-size: 100%;
+    width: 50%;
+    float: left;
+}
+.in-mcontainer-izq h3,
+.in-mcontainer-izq h4 {
+    text-align: center;
+}
+.in-mcontainer-izq h3 {
+    font-family: "Instrument Serif", "Times New Roman", "Songti SC", "SimSun", "Nanum Myeongjo", serif;
+    padding-top: 100px;
+    color: #ff9305;
+    font-size: 70px;
+    font-weight: 300;
+}
+.in-mcontainer-izq h3 span {
+    font-size: 50px;
+}
+.in-mcontainer-izq h4 {
+    font-family: Open sans;
+    color: #34383d;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.in-mcontainer-izq p {
+    /* margin: 0 auto; */
+    width: 90%;
+    color: #34383d;
+    padding-top: 25px;
+    font-size: 19px;
+    line-height: normal;
+}
+.in-mcontainer-izq-img {
+    padding-top: 20px;
+}
+.in-mcontainer-der {
+    width: 50%;
+    float: left;
+}
+.in-mcontainer-der img {
+    width: 90%;
+    padding-top: 87px;
+    margin-bottom: 90px;
+}
+.in-scontainer {
+    width: 1170px;
+    margin: 0 auto;
+}
+.in-simage {
+    width: 50%;
+    float: left;
+    padding-bottom: 0;
+    margin-top: 30px;
+}
+.in-spoints {
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 182px;
+}
+.in-scontainer-get {
+    color: #ff9305;
+    font-family: "Instrument Serif", "Times New Roman", "Songti SC", "SimSun", "Nanum Myeongjo", serif;
+    font-size: 40px;
+    padding-bottom: 34px;
+}
+.in-spoints ul {
+    font-family: lato;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 0 20px 0 10%;
+    list-style: disc;
+}
+.in-spoints ul li {
+    padding-bottom: 30px;
+    color: #ff9305;
+}
+.in-spoints ul li p {
+    color: #34383d;
+}
+.in-spoints-sm {
+    display: none;
+}
+.in-bottom-product {
+    background: url(https://enzactamedia.enzacta.com/prod/images/bottom-back-yakunaah.jpg) top center no-repeat;
+    height: 300px;
+}
+@media only screen and (max-width: 1160px) {
+    .in-mtitle {
+        padding-top: 220px;
+        font-size: 12rem;
+    }
+    .in-mtitle-mid {
+        font-size: 5rem !important;
+    }
+    .in-mcontainer {
+        width: 100%;
+    }
+    .in-scontainer {
+        width: 100%;
+    }
+    .in-spoints {
+        padding-top: 150px;
+    }
+    .in-mcontainer-izq h3 {
+        font-size: 60px;
+    }
+    .in-mcontainer-izq h3 span {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .in-mbanner {
+        background-position-y: 143px;
+    }
+    .in-mtitle {
+        padding-top: 229px;
+        font-size: 13rem !important;
+    }
+    .in-spoints {
+        padding-top: 140px;
+    }
+    .in-scontainer-get {
+        font-size: 36px;
+    }
+    .in-spoints ul {
+        font-size: 20px;
+    }
+    .in-simage {
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .in-mtitle {
+        padding-top: 235px;
+        font-size: 11rem !important;
+    }
+    .in-mtitle-mid {
+        font-size: 3rem !important;
+    }
+    .in-mbanner {
+        background: url(https://enzactamedia.enzacta.com/prod/images/super-fruit-juice-yakunaah.png) no-repeat top;
+        background-position-y: 10px;
+        background-size: 624px auto;
+    }
+    .in-spoints {
+        padding-top: 90px;
+    }
+    .in-scontainer-get {
+        font-size: 32px;
+    }
+    .in-spoints ul {
+        font-size: 18px;
+    }
+    .in-mcontainer-izq h3 {
+        font-size: 50px;
+    }
+    .in-mcontainer-izq h3 span {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 675px) {
+    .in-mcontainer-izq h3 {
+        font-size: 45px;
+    }
+    .in-mcontainer-izq h3 span {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .in-mtitle {
+        padding-top: 207px;
+        font-size: 11rem !important;
+    }
+    .in-mtitle-mid {
+        font-size: 3rem !important;
+    }
+    .in-mbanner {
+        background: url(https://enzactamedia.enzacta.com/prod/images/super-fruit-juice-yakunaah.png) no-repeat top;
+        background-position-y: 10px;
+        background-size: 624px auto;
+    }
+    .in-mbanner {
+        min-height: 515px;
+    }
+    .in-mtitle {
+        padding-top: 220px;
+    }
+    .in-mbanner {
+        background-size: 550px auto;
+    }
+    .in-mcontainer-izq {
+        width: 100%;
+    }
+    .in-mcontainer-der {
+        display: none;
+    }
+    .in-spoints {
+        display: none;
+    }
+    .in-simage {
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 30px;
+    }
+    .in-scontainer-get {
+        font-size: 38px;
+    }
+    .in-spoints-sm {
+        display: block;
+        margin-top: 50px;
+        width: 80%;
+        margin: 50px auto 0 auto;
+    }
+    .in-spoints-sm ul {
+        font-family: lato;
+        font-weight: 300;
+        font-size: 22px;
+        padding: 0 20px 0 21px;
+        list-style: disc;
+    }
+    .in-spoints-sm ul li {
+        padding-bottom: 30px;
+        color: #ff9305;
+    }
+    .in-spoints-sm ul li p {
+        color: #34383d;
+    }
+    .in-mcontainer-izq h3 {
+        font-size: 50px;
+    }
+    .in-mcontainer-izq h3 span {
+        font-size: 30px;
+    }
+
+    /* MON 2602 ---------------- */
+    .in-mcontainer-izq p {
+        width: 100%;
+    }
+
+    .in-mcontainer-izq-text {
+        padding: 0 30px;
+    }
+
+}
+@media only screen and (max-width: 520px) {
+    .in-mtitle-mid {
+        font-size: 3rem !important;
+    }
+}
+@media only screen and (max-width: 437px) {
+    .in-mtitle {
+        padding-top: 235px;
+        font-size: 8rem !important;
+    }
+    .in-mtitle-mid {
+        font-size: 2rem !important;
+    }
+    .in-mbanner {
+        background-size: 550px auto;
+    }
+    .in-scontainer-get {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .in-mbanner {
+        min-height: 424px;
+    }
+    .in-mtitle {
+        padding-top: 175px;
+        font-size: 8rem !important;
+    }
+    .in-mbanner {
+        background-size: 450px auto;
+    }
+}
+@media only screen and (max-width: 436px) {
+    .avai_prod {
+        padding-top: 252px !important;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .in-spoints-sm ul li p {
+        font-size: 20px;
+    }
+    .in-mbanner {
+        background-size: 387px auto;
+    }
+    .in-mbanner {
+        min-height: 383px;
+    }
+    .in-mtitle {
+        padding-top: 165px;
+        font-size: 6rem !important;
+    }
+    .in-simage {
+        width: 98%;
+    }
+    .in-mcontainer-izq h3 {
+        font-size: 40px;
+    }
+    .in-mcontainer-izq h3 span {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .in-scontainer-get {
+        font-size: 28px;
+    }
+    .in-mtitle {
+        padding-top: 165px;
+        font-size: 6rem !important;
+    }
+}
+
+/* -------- MON 2602 -------- */
+.in-mcontainer-izq-text {
+    margin: 0 20px;
+}
+
+.in-mcontainer-izq h3 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 465px) {
+
+    .in-mcontainer-izq h3 {
+        font-size: 44px;
+        padding: 100px 0 0 0;
+        text-align: left;
+    }
+
+    .in-mcontainer-izq p {
+        margin: 0 auto;
+    }
+
+}

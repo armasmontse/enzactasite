@@ -1,0 +1,94 @@
+/* =========================
+   VIDEO COVER / HERO
+========================= */
+
+#video-cover {
+	width: 100%;
+}
+
+/* Contenedor principal */
+.video-cover-wrapper {
+	position: relative;
+	width: 100%;
+	min-height: 87vh; /* Desktop grande */
+	overflow: hidden;
+	background-color: #000;
+}
+
+/* Video */
+.video-cover-media {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(-50%, -50%);
+}
+
+.video-cover-overlay {
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	pointer-events: none;
+}
+
+/* Agregamos las propiedades de transición a la clase existente */
+.video-cover-title {
+    /* Mantén tus estilos actuales (font, color, etc.) */
+    color: #ffffff;
+    font-size: 70px;
+	font-family: "Instrument Serif", "Times New Roman", "Songti SC", "SimSun", "Nanum Myeongjo", serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0 20px;
+    
+    /* NUEVO: Definimos la transición suave para opacidad y transformación */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estado oculto: El texto se vuelve transparente y baja ligeramente */
+.video-cover-title.is-hidden {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1279px) {
+	.video-cover-wrapper {
+		min-height: 80vh;
+	}
+}
+
+@media (max-width: 1024px) {
+
+	.video-cover-title {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.video-cover-title {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.video-cover-title {
+		font-size: 26px;
+	}
+}

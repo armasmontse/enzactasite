@@ -1,0 +1,1941 @@
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/documents.css">
+<style type="text/css">
+	a:visited, a:link {
+    text-decoration: none;
+	}
+	.KR-documents-title {
+    padding-bottom: 30px;
+	}
+	.KR-documents-card .KR-documents-title h2 {
+    color: #299973;
+    font-weight: 700;
+    padding: 12px 20px;
+    font-size: 18px!important;
+    margin: 0;
+    line-height: normal;
+    padding-top: 20px;
+    min-height: 75px;
+	}
+	.KR-documents-card {
+	width: 25%;
+	min-height: 200px;
+	float: left;
+    box-sizing: border-box;
+	padding: 10px;
+	display: table;
+	}
+	.KR-doc-share-btn {
+	width: 100%;
+	height: 70px;
+	}
+
+	.KR-doc-share-btn button {
+    background: #299973;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+    cursor: pointer;
+	}
+
+	.KR-doc-share-btn button:hover {
+	background-color: #68dbb4;
+	}
+	.KR-documents-card .v_std_card {
+	height: 100%;
+    border-radius: 10px;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.25);
+	background-color: white;
+    box-sizing: border-box;
+	}
+	.KR-documents-button {
+		background: #299973;
+		color: #ffffff;
+		font-size: 16px;
+		width: 170px;
+		height: 40px;
+		border: none;
+		border-radius: 8px;
+		margin: 0 auto;
+		display: block;
+	}
+	.KR-documents-button:hover {
+		background: #37d29d;
+	}
+	.KR-doc-share-btn.icon-share-container
+	{
+		height: 87px!important;
+		margin-top: 30px;
+		display: none;
+	}
+	.sm-do-share-cointainer-space3
+	{
+		padding-left:55px;
+	}
+	.sm-do-share-cointainer-space2
+	{
+		padding-left:75px;
+	}
+	.sm-do-share-cointainer-sharetitle
+	{
+		padding-left:28px!important;
+		padding-bottom:5px!important;
+	}
+	.sm-do-share-cointainer-sharetitle2
+	{
+		padding-left:6px!important;
+		padding-bottom:5px!important;
+	}
+
+	/* Shadow card */
+	.v_std_card.shadow-card {
+		box-shadow:	inset 0 0 0 2px #F6CDD1,
+		0 0 15px rgba(245, 170, 180, .45),
+        0 10px 30px rgba(245, 170, 180, .20);
+	}
+
+</style>
+</head>
+
+<body>
+	
+	<div class="main_container">
+		
+		<div class="title_container">
+			<div><h1>Documents and Product Leaflets</h1></div>
+		</div>
+
+		
+		<div class="tabs_container">
+			<div>
+				<div class="buttons_container">
+					<button class="tablink card-active" onclick="openGroup(event,'leaderM')">Documents</button>
+					<button class="tablink" onclick="openGroup(event,'corporateM')">Product leaflets</button>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="leaderM" class="KR-documents-tab">
+			
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>IBO Application & Agreement</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R1">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R1"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Product Order Form</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R2">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R2"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Autoship Application</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R3">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R3"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Power of Attorney</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R4">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R4"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Return Notice</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R5">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R5"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Membership Book</h2>
+						<hr>
+						<a href="https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R6">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R6"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Donation Application Form​</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R7">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R7"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Company Introduction</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R8">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R8"></div>
+				</div>
+			</div>
+			
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Web Sign Up<br>(By Sponsor)​</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R9">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R9"></div>
+				</div>
+			</div> -->
+			
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>ENZACTA World Book</h2>
+						<hr>
+						<a href="https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/ENZACTA-World_Book_20250527.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R10">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R10"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>2026 Payment Calendar</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/C-004-KREN1-251201-s.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R1">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R1"></div>
+				</div>
+			</div>
+
+		</div>
+
+		
+		<div id="corporateM" class="KR-documents-tab" style="display:none">
+
+			<div class="KR-documents-card">
+				<div class="v_std_card shadow-card">
+					<div class="KR-documents-title">
+						<h2>alfa ZETA PROBIOTICS</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html" target="_blank"><button class="KR-documents-button">Link</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R29">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R29"></div>
+				</div>
+			</div>
+			
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>All products leaflet</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R12">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R12"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa PXP FORTE</h2>
+						<hr>
+						<a href="https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R13">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R13"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa PXP PLUS</h2>
+						<hr>
+						<a href="https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R14">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R14"></div>
+				</div>
+			</div>
+
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa PXP 4 ME</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R15">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R15"></div>
+				</div>
+			</div> -->
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa CAFÉ NUTRA SIGNATURE BLEND</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R16">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R16"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa CAFÉ NUTRA LITE BLEND</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R17">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R17"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa CAFÉ NUTRA LATTE BLEND</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R18">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R18"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa B-12</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R19">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R19"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa RXP</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R20">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R20"></div>
+				</div>
+			</div>
+
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa PROBIOTICS</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R21">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R21"></div>
+				</div>
+			</div> -->
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>alfa Sleep Plus Ashwagandha</h2>
+						<hr>
+						<a href="https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R28">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R28"></div>
+				</div>
+			</div>
+
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>UNDEW Facial Cleanser</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R22">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R22"></div>
+				</div>
+			</div> -->
+
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>UNDEW Peptide Toner</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R23">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R23"></div>
+				</div>
+			</div> -->
+
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>UNDEW Facial Serum</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R24">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R24"></div>
+				</div>
+			</div> -->
+
+			<!-- <div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>UNDEW Double Peptide Cream</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R25">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R25"></div>
+				</div>
+			</div> -->
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>UNDEW SUN THE COVER SUN GEL</h2>
+						<hr>
+						<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R26">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R26"></div>
+				</div>
+			</div>
+
+			<div class="KR-documents-card">
+				<div class="v_std_card">
+					<div class="KR-documents-title">
+						<h2>Living Products Leaflet</h2>
+						<hr>
+						<a href="https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf" target="_blank"><button class="KR-documents-button">Open document</button></a>
+					</div>
+					<div class="KR-doc-share-btn buttonShareApi">
+						<button class="vShare-R27">SHARE</button>
+					</div>
+					<div class="KR-doc-share-btn icon-share-container share-icons-container-R27"></div>
+				</div>
+			</div>
+
+
+		</div>		
+		
+	</div>
+
+	
+	
+<!-- SCRITP FOR TABS -->
+<script>
+	function openGroup(evt, tabName) {
+		var i, x, tablinks;
+		x = document.getElementsByClassName("KR-documents-tab");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablink");
+		for (i = 0; i < x.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" card-active", "");
+		}
+		document.getElementById(tabName).style.display = "block";
+		evt.currentTarget.className += " card-active";
+	}
+</script>
+
+<!-- SCRITP FOR SHARE BUTTONS -->
+
+<script> 
+myuserAgent = navigator.appVersion;
+kakaotalsub = myuserAgent.split("KAKAOTALK");
+var kakaotalkis = false;
+if(kakaotalsub.length > 1)
+{
+  kakaotalkis = true;  
+}
+
+    var shareButton1 = document.querySelector('.vShare-R1')
+    var shareButton2 = document.querySelector('.vShare-R2')
+	var shareButton3 = document.querySelector('.vShare-R3')
+	var shareButton4 = document.querySelector('.vShare-R4')
+	var shareButton5 = document.querySelector('.vShare-R5')
+	var shareButton6 = document.querySelector('.vShare-R6')
+	var shareButton7 = document.querySelector('.vShare-R7')
+	var shareButton8 = document.querySelector('.vShare-R8')
+	//var shareButton9 = document.querySelector('.vShare-R9')
+	var shareButton10 = document.querySelector('.vShare-R10')
+
+	var shareButton12 = document.querySelector('.vShare-R12')
+	var shareButton13 = document.querySelector('.vShare-R13')
+	var shareButton14 = document.querySelector('.vShare-R14')
+	// var shareButton15 = document.querySelector('.vShare-R15')
+	var shareButton16 = document.querySelector('.vShare-R16')
+	var shareButton17 = document.querySelector('.vShare-R17')
+	var shareButton18 = document.querySelector('.vShare-R18')
+	var shareButton19 = document.querySelector('.vShare-R19')
+	var shareButton20 = document.querySelector('.vShare-R20')
+	// var shareButton21 = document.querySelector('.vShare-R21')
+	// var shareButton22 = document.querySelector('.vShare-R22')
+	// var shareButton23 = document.querySelector('.vShare-R23')
+	// var shareButton24 = document.querySelector('.vShare-R24')
+	// var shareButton25 = document.querySelector('.vShare-R25')
+	var shareButton26 = document.querySelector('.vShare-R26')
+	var shareButton27 = document.querySelector('.vShare-R27')
+	var shareButton28 = document.querySelector('.vShare-R28')
+	var shareButton29 = document.querySelector('.vShare-R29')
+
+
+	var shareiconButton1 = document.querySelector('.share-icons-container-R1')
+    var shareiconButton2 = document.querySelector('.share-icons-container-R2')
+	var shareiconButton3 = document.querySelector('.share-icons-container-R3')
+	var shareiconButton4 = document.querySelector('.share-icons-container-R4')
+	var shareiconButton5 = document.querySelector('.share-icons-container-R5')
+	var shareiconButton6 = document.querySelector('.share-icons-container-R6')
+	var shareiconButton7 = document.querySelector('.share-icons-container-R7')
+	var shareiconButton8 = document.querySelector('.share-icons-container-R8')
+	//var shareiconButton9 = document.querySelector('.share-icons-container-R9')
+	var shareiconButton10 = document.querySelector('.share-icons-container-R10')
+
+	var shareiconButton12 = document.querySelector('.share-icons-container-R12')
+	var shareiconButton13 = document.querySelector('.share-icons-container-R13')
+	var shareiconButton14 = document.querySelector('.share-icons-container-R14')
+	// var shareiconButton15 = document.querySelector('.share-icons-container-R15')
+	var shareiconButton16 = document.querySelector('.share-icons-container-R16')
+	var shareiconButton17 = document.querySelector('.share-icons-container-R17')
+	var shareiconButton18 = document.querySelector('.share-icons-container-R18')
+	var shareiconButton19 = document.querySelector('.share-icons-container-R19')
+	var shareiconButton20 = document.querySelector('.share-icons-container-R20')
+	// var shareiconButton21 = document.querySelector('.share-icons-container-R21')
+	// var shareiconButton22 = document.querySelector('.share-icons-container-R22')
+	// var shareiconButton23 = document.querySelector('.share-icons-container-R23')
+	// var shareiconButton24 = document.querySelector('.share-icons-container-R24')
+	// var shareiconButton25 = document.querySelector('.share-icons-container-R25')
+	var shareiconButton26 = document.querySelector('.share-icons-container-R26')
+	var shareiconButton27 = document.querySelector('.share-icons-container-R27')
+	var shareiconButton28 = document.querySelector('.share-icons-container-R28')
+	var shareiconButton29 = document.querySelector('.share-icons-container-R29')
+
+    if ('share' in navigator) {
+		shareButton1.addEventListener('click', share1)
+			function share1() {
+				navigator.share({
+					text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf',
+				})
+			}
+		shareButton2.addEventListener('click', share2)
+			function share2() {
+				navigator.share({
+					text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf',
+				})
+			}
+	  shareButton3.addEventListener('click', share3)
+      function share3() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf',
+        })
+      }
+	  shareButton4.addEventListener('click', share4)
+      function share4() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf',
+        })
+      }
+	  shareButton5.addEventListener('click', share5)
+      function share5() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf',
+        })
+      }
+	  shareButton6.addEventListener('click', share6)
+      function share6() {
+        navigator.share({
+          text: 'https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf',
+        })
+      }
+	  shareButton7.addEventListener('click', share7)
+      function share7() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf',
+        })
+      }
+      shareButton8.addEventListener('click', share8)
+      function share8() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf',
+        })
+      }
+
+    //   shareButton9.addEventListener('click', share9)
+    //   function share9() {
+    //     navigator.share({
+    //       text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf',
+    //     })
+    //   }
+
+      shareButton10.addEventListener('click', share10)
+      function share10() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-Membership_Benefits_Guide.pdf',
+        })
+      }
+	  
+
+
+	  shareButton12.addEventListener('click', share12)
+      function share12() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf',
+        })
+      }
+
+	  shareButton13.addEventListener('click', share13)
+      function share13() {
+        navigator.share({
+          text: 'https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf',
+        })
+      }
+
+	  shareButton14.addEventListener('click', share14)
+      function share14() {
+        navigator.share({
+          text: 'https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf',
+        })
+      }
+
+	//   shareButton15.addEventListener('click', share15)
+    //   function share15() {
+    //     navigator.share({
+    //       text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf',
+    //     })
+    //   }
+
+	  shareButton16.addEventListener('click', share16)
+      function share16() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf',
+        })
+      }
+
+	  shareButton17.addEventListener('click', share17)
+      function share17() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf',
+        })
+      }
+
+	  shareButton18.addEventListener('click', share18)
+      function share18() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf',
+        })
+      }
+
+	  shareButton19.addEventListener('click', share19)
+      function share19() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf',
+        })
+      }
+
+	  shareButton20.addEventListener('click', share20)
+      function share20() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf',
+        })
+    }
+
+	//   shareButton21.addEventListener('click', share21)
+    //   function share21() {
+    //     navigator.share({
+    //       text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf',
+    //     })
+    //   }
+
+	//   shareButton22.addEventListener('click', share22)
+    //   function share22() {
+    //     navigator.share({
+    //       text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf',
+    //     })
+    //   }
+
+	//   shareButton23.addEventListener('click', share23)
+    //   function share23() {
+    //     navigator.share({
+    //       text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf',
+    //     })
+    //   }
+
+	// shareButton24.addEventListener('click', share24)
+    // function share24() {
+    //     navigator.share({
+	// 		text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf',
+    //     })
+    // }
+
+	//   shareButton25.addEventListener('click', share25)
+    //   function share25() {
+    //     navigator.share({
+    //       text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf',
+    //     })
+    //   }
+
+	  shareButton26.addEventListener('click', share26)
+      function share26() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf',
+        })
+      }
+
+	  shareButton27.addEventListener('click', share27)
+      function share27() {
+        navigator.share({
+          text: 'https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf',
+        })
+      }
+
+	  shareButton28.addEventListener('click', share28)
+      function share28() {
+        navigator.share({
+          text: 'https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf',
+        })
+      }
+
+	  shareButton29.addEventListener('click', share29)
+      function share29() {
+        navigator.share({
+          text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html',
+        })
+      }
+
+      var noShareApi = document.querySelectorAll(".icon-share-container");
+      
+      noShareApi.forEach(function(elemento){
+        elemento.style.display = "none";
+      });
+	  
+    } else {
+      var noShareApi = document.querySelectorAll(".buttonShareApi");
+      
+      noShareApi.forEach(function(elemento){
+        elemento.style.display = "none";
+      });
+
+
+    	if (navigator.appVersion.indexOf("Mac")!=-1) {
+      		shareiconButton1.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=IBO Application %26 Agreement&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=IBO Application %26 Agreement: https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=IBO Application %26 Agreement: https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';   
+	          shareiconButton2.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Product Order Form&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Product Order Form: https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Product Order Form: https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton3.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Autoship Application&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Autoship Application: https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Autoship Application: https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+	          shareiconButton4.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Power of Attorney&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Power of Attorney: https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Power of Attorney: https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton5.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Return Notice&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Return Notice: https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Return Notice: https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton6.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=A Member%27s Notebook&body=https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=A Member%27s Notebook: https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=A Member%27s Notebook: https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton7.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Application Form with ENZACTA Donation&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Application Form with ENZACTA Donation: https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Application Form with ENZACTA Donation: https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton8.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Company Introduction&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Company Introduction: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Company Introduction: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';   
+	        //   shareiconButton9.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=Recommendant Sign Up&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=Recommendant Sign Up: https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=Recommendant Sign Up: https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+	          shareiconButton10.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Membership Benefits Guide (ENZACTA World Book)&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/ENZACTA-World_Book_20250527.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Membership Benefits Guide (ENZACTA World Book): https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/ENZACTA-World_Book_20250527.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Membership Benefits Guide (ENZACTA World Book): https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/ENZACTA-World_Book_20250527.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+			  
+			  shareiconButton12.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=All products leaflet&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=All products leaflet: https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=All products leaflet: https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			  shareiconButton13.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa PXP FORTE&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa PXP FORTE: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa PXP FORTE: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';
+			  shareiconButton14.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa PXP PLUS&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa PXP PLUS: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa PXP PLUS: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';
+			//   shareiconButton15.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=alfa PXP 4 ME&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=alfa PXP 4 ME: https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=alfa PXP 4 ME: https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+			// 	'</div>';
+
+				shareiconButton16.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa CAFÉ NUTRA SIGNATURE BLEND&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa CAFÉ NUTRA SIGNATURE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa CAFÉ NUTRA SIGNATURE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+					shareiconButton17.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa CAFÉ NUTRA LITE BLEND&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa CAFÉ NUTRA LITE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa CAFÉ NUTRA LITE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+					shareiconButton18.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa CAFÉ NUTRA LATTE BLEND&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa CAFÉ NUTRA LATTE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa CAFÉ NUTRA LATTE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+					shareiconButton19.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa B-12&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa B-12: https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa B-12: https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+					shareiconButton20.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa RXP&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa RXP: https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa RXP: https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+			// 		shareiconButton21.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=alfa PROBIOTICS&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=alfa PROBIOTICS: https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=alfa PROBIOTICS: https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+			// 	'</div>';
+
+			// 		shareiconButton22.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Facial Cleanser&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=UNDEW Facial Cleanser: https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Facial Cleanser: https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+			// 	'</div>';
+
+			// 		shareiconButton23.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Peptide Toner&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=UNDEW Peptide Toner: https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Peptide Toner: https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+			// 	'</div>';
+
+			// 		shareiconButton24.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Facial Serum&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=UNDEW Facial Serum: https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Facial Serum: https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+			// 	'</div>';
+
+			// 		shareiconButton25.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Double Peptide Cream&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="sms:&body=UNDEW Double Peptide Cream: https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by SMS</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Double Peptide Cream: https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+			// 	'</div>';
+
+					shareiconButton26.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=UNDEW SUN THE COVER SUN GEL&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=UNDEW SUN THE COVER SUN GEL: https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=UNDEW SUN THE COVER SUN GEL: https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+					shareiconButton27.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Living Products Leaflet&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=Living Products Leaflet: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Living Products Leaflet: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +	
+	          '</div>';
+
+			  shareiconButton28.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa Sleep Plus Ashwagandha&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa Sleep Plus Ashwagandha: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa Sleep Plus Ashwagandha: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+
+				shareiconButton29.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+	              '<p class="sm-do-share-cointainer-sharetitle"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa ZETA PROBIOTICS&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="sms:&body=alfa ZETA PROBIOTICS: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by SMS</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa ZETA PROBIOTICS: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+				'</div>';
+      	}else{
+      		shareiconButton1.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=IBO Application %26 Agreement&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=IBO Application %26 Agreement: https://media.enzactainternational.com/iboblast/docs/KR/Documents/1-IBO_Member_Registration_Application_Form.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';   
+	          shareiconButton2.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Product Order Form&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Product Order Form: https://media.enzactainternational.com/iboblast/docs/KR/Documents/2-Goods_purchase_contract_documents.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton3.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Autoship Application&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Autoship Application: https://media.enzactainternational.com/iboblast/docs/KR/Documents/KR_Autoship_Order_Form_2607010.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+	          shareiconButton4.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Power of Attorney&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Power of Attorney: https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-power_of_attorney.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton5.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Return Notice&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Return Notice: https://media.enzactainternational.com/iboblast/docs/KR/Documents/Return_Notice-KR-20250619.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton6.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=A Member%27s Notebook!&body=https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=A Member%27s Notebook: https://3000800.ezsoftqa.com/rosar/enzactaSite/Customer/Terms_conditions/policies_procedures/Policies_and_Procedures-KR.20250618.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton7.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Application Form with ENZACTA Donation&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Application Form with ENZACTA Donation: https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-Application_form_with_Enzacta_Donation.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+	          shareiconButton8.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Company Introduction&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Company Introduction: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ENZACTA_KOREA_Company_Introduction_20260722.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';   
+	        //   shareiconButton9.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=Recommendant Sign Up&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=Recommendant Sign Up: https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-Signup_Recommendant_signup.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+	          shareiconButton10.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Membership Benefits Guide&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-Membership_Benefits_Guide.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Membership Benefits Guide: https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-Membership_Benefits_Guide.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';
+			  
+			  shareiconButton12.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=All products leaflet&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=All products leaflet: https://media.enzactainternational.com/iboblast/docs/KR/Documents/All_products_leaflet-KR-20250909.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+			  shareiconButton13.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa PXP FORTE&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa PXP FORTE: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/2-alfa_PXP_FORTE-250623-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+			  shareiconButton14.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa PXP PLUS&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa PXP PLUS: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/3-alfa_PXP_PLUS-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';   
+			//   shareiconButton15.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=alfa PXP 4 ME&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=alfa PXP 4 ME: https://media.enzactainternational.com/iboblast/docs/KR/Documents/4-alfa_PXP_4_ME-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>';
+			  shareiconButton16.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa CAFÉ NUTRA SIGNATURE BLEND&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa CAFÉ NUTRA SIGNATURE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/5-SIGNATURE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			  shareiconButton17.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa CAFÉ NUTRA LITE BLEND&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa CAFÉ NUTRA LITE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/6-LITE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			  shareiconButton18.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa CAFÉ NUTRA LATTE BLEND&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa CAFÉ NUTRA LATTE BLEND: https://media.enzactainternational.com/iboblast/docs/KR/Documents/7-LATTE_BLEND-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			  shareiconButton19.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa B-12&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa B-12: https://media.enzactainternational.com/iboblast/docs/KR/Documents/8-alfa_B-12-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			  shareiconButton20.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa RXP&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa RXP: https://media.enzactainternational.com/iboblast/docs/KR/Documents/9-alfa_RXP-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			//   shareiconButton21.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=alfa PROBIOTICS&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=alfa PROBIOTICS: https://media.enzactainternational.com/iboblast/docs/KR/Documents/10-alfa_PROBIOTICS-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+			//   shareiconButton22.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Facial Cleanser&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Facial Cleanser: https://media.enzactainternational.com/iboblast/docs/KR/Documents/11-Facial_Cleanser-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+			//   shareiconButton23.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Peptide Toner&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Peptide Toner: https://media.enzactainternational.com/iboblast/docs/KR/Documents/12-Peptide_Toner-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+			//   shareiconButton24.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Facial Serum&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Facial Serum: https://media.enzactainternational.com/iboblast/docs/KR/Documents/13-Facial_Serum-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+			//   shareiconButton25.innerHTML =
+	        //   '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	        //       '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		    //         '<a href="mailto:?subject=UNDEW Double Peptide Cream&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Email</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+		    //         '<a href="whatsapp://send?text=UNDEW Double Peptide Cream: https://media.enzactainternational.com/iboblast/docs/KR/Documents/14-Double_Peptide_Cream-240610-sm.pdf">' +
+		    //         '<div class="sm-do-share-icon-cont share-tooltip">' +
+		    //         '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		    //         '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		    //         '</div>' +
+		    //         '</a>' +
+	        //   '</div>'; 
+			  shareiconButton26.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=UNDEW SUN THE COVER SUN GEL&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=UNDEW SUN THE COVER SUN GEL: https://media.enzactainternational.com/iboblast/docs/KR/Documents/15-SUN_GEL-240610-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+			  shareiconButton27.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=Living Products Leaflet&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=Living Products Leaflet: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/16-Living_leaflet-250102-sm-2.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';  
+			  shareiconButton28.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa Sleep Plus Ashwagandha&body=https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa Sleep Plus Ashwagandha: https://enzactamedia.enzacta.com/prod/Customer/iboblast/docs/KR/Documents/KR_Leaflet_alfa_Sleep_Plus_Ashwagandha_012425-sm.pdf">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>';
+			  shareiconButton29.innerHTML =
+	          '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+	              '<p class="sm-do-share-cointainer-sharetitle2"><b>Share it by:</b></p>' +
+		            '<a href="mailto:?subject=alfa ZETA PROBIOTICS&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Email</span>' +
+		            '</div>' +
+		            '</a>' +
+		            '<a href="whatsapp://send?text=alfa ZETA PROBIOTICS: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/EN/index.html">' +
+		            '<div class="sm-do-share-icon-cont share-tooltip">' +
+		            '<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+		            '<span class="share-tooltiptext">Share by Whatsapp</span>' +
+		            '</div>' +
+		            '</a>' +
+	          '</div>'; 
+      	}
+
+      
+     
+    }
+  </script>
+	
+	
+</body>

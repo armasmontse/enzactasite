@@ -1,0 +1,80 @@
+.in-mcontainer-izq h3 {
+    color: #76bc43;
+}
+
+.in-scontainer-get {
+    color: #76bc43;
+}
+
+.in-spoints ul li {
+    color: hsl(95, 47%, 50%);
+}
+
+.in-mbanner {
+    min-height: 600px;
+    background: url(https://enzactamedia.enzacta.com/prod/images/brown-rice-forte-mx.png) no-repeat fixed top;
+    background-size: 700px auto;
+    background-position-y: 120px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .in-mbanner {
+        background-position-y: 166px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .in-mbanner {
+        background: url(https://enzactamedia.enzacta.com/prod/images/brown-rice-forte-mx.png) no-repeat top;
+        background-position-y: 10px;
+        background-size: 634px auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .in-mtitle {
+        padding-top: 260px;
+    }
+
+    /* MON 2602 ---------------- */
+    .in-mcontainer-izq p {
+        width: 100%;
+    }
+
+    .in-mcontainer-izq-text {
+        padding: 0 30px;
+    }
+
+}
+
+/* -------- MON 2602 -------- */
+.in-mcontainer-izq-text {
+    margin: 0 20px;
+}
+
+.in-mcontainer-izq h3 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 465px) {
+
+    .in-mcontainer-izq h3 {
+        font-size: 44px;
+        padding: 100px 0 0 0;
+        text-align: left;
+    }
+
+    .in-mcontainer-izq p {
+        margin: 0 auto;
+    }
+
+    .in-mcontainer-izq-text {
+        padding: 0 20px;
+    }
+
+}
