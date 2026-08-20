@@ -66,6 +66,9 @@
 		background-color: white;
 		box-sizing: border-box;
 		}
+		.KR-documents-card .KLumen-card {
+		box-shadow: inset 0 0 0 2px #dcd6cd, 0 0 15px #d1c3b0, 0 10px 30px #f7ecde !important;
+		}
 		.KR-documents-button {
 			background: #299973;
 			color: #ffffff;
@@ -301,11 +304,67 @@
 			<div id="corporateM" class="KR-documents-tab" style="display:none">
 
 				<div class="KR-documents-card">
+					<div class="v_std_card shadow-card KLumen-card">
+						<div class="KR-documents-title">
+							<h2>바오셀 퍼밍 크림</h2>
+							<hr>
+							<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html" target="_blank"><button class="KR-documents-button">링크</button></a>
+						</div>
+						<div class="KR-doc-share-btn buttonShareApi">
+							<button class="vShare-R30">문서 공유</button>
+						</div>
+						<div class="KR-doc-share-btn icon-share-container share-icons-container-R30"></div>
+					</div>
+				</div>
+
+				<div class="KR-documents-card">
+					<div class="v_std_card shadow-card KLumen-card">
+						<div class="KR-documents-title">
+							<h2>갈락토 리파이닝 부스터</h2>
+							<hr>
+							<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html" target="_blank"><button class="KR-documents-button">링크</button></a>
+						</div>
+						<div class="KR-doc-share-btn buttonShareApi">
+							<button class="vShare-R31">문서 공유</button>
+						</div>
+						<div class="KR-doc-share-btn icon-share-container share-icons-container-R31"></div>
+					</div>
+				</div>
+
+				<div class="KR-documents-card">
+					<div class="v_std_card shadow-card KLumen-card">
+						<div class="KR-documents-title">
+							<h2>마그넷 차콜 클렌저</h2>
+							<hr>
+							<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html" target="_blank"><button class="KR-documents-button">링크</button></a>
+						</div>
+						<div class="KR-doc-share-btn buttonShareApi">
+							<button class="vShare-R32">문서 공유</button>
+						</div>
+						<div class="KR-doc-share-btn icon-share-container share-icons-container-R32"></div>
+					</div>
+				</div>
+
+				<div class="KR-documents-card">
+					<div class="v_std_card shadow-card KLumen-card">
+						<div class="KR-documents-title">
+							<h2>라이스 엑토 리페어 세럼</h2>
+							<hr>
+							<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html" target="_blank"><button class="KR-documents-button">링크</button></a>
+						</div>
+						<div class="KR-doc-share-btn buttonShareApi">
+							<button class="vShare-R33">문서 공유</button>
+						</div>
+						<div class="KR-doc-share-btn icon-share-container share-icons-container-R33"></div>
+					</div>
+				</div>
+
+				<div class="KR-documents-card">
 					<div class="v_std_card shadow-card">
 						<div class="KR-documents-title">
 							<h2>알파 제타 프로바이오틱스</h2>
 							<hr>
-							<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html" target="_blank"><button class="KR-documents-button">링크</button></a>
+							<a href="https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html" target="_blank"><button class="KR-documents-button">링크</button></a>
 						</div>
 						<div class="KR-doc-share-btn buttonShareApi">
 							<button class="vShare-R29">문서 공유</button>
@@ -313,7 +372,7 @@
 						<div class="KR-doc-share-btn icon-share-container share-icons-container-R29"></div>
 					</div>
 				</div>
-	
+
 				<div class="KR-documents-card">
 					<div class="v_std_card">
 						<div class="KR-documents-title">
@@ -607,6 +666,10 @@
 		var shareButton27 = document.querySelector('.vShare-R27')
 		var shareButton28 = document.querySelector('.vShare-R28')
 		var shareButton29 = document.querySelector('.vShare-R29')
+		var shareButton30 = document.querySelector('.vShare-R30')
+		var shareButton31 = document.querySelector('.vShare-R31')
+		var shareButton32 = document.querySelector('.vShare-R32')
+		var shareButton33 = document.querySelector('.vShare-R33')
 	
 		var shareiconButton1 = document.querySelector('.share-icons-container-R1')
 		var shareiconButton2 = document.querySelector('.share-icons-container-R2')
@@ -636,6 +699,10 @@
 		var shareiconButton27 = document.querySelector('.share-icons-container-R27')
 		var shareiconButton28 = document.querySelector('.share-icons-container-R28')
 		var shareiconButton29 = document.querySelector('.share-icons-container-R29')
+		var shareiconButton30 = document.querySelector('.share-icons-container-R30')
+		var shareiconButton31 = document.querySelector('.share-icons-container-R31')
+		var shareiconButton32 = document.querySelector('.share-icons-container-R32')
+		var shareiconButton33 = document.querySelector('.share-icons-container-R33')
 	
 		if ('share' in navigator) 
 		{
@@ -825,7 +892,35 @@
 		  shareButton29.addEventListener('click', share29)
 		  function share29() {
 			navigator.share({
-			  text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html',
+			  text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html',
+			})
+		  }
+
+		  shareButton30.addEventListener('click', share30)
+		  function share30() {
+			navigator.share({
+			  text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html',
+			})
+		  }
+
+		  shareButton31.addEventListener('click', share31)
+		  function share31() {
+			navigator.share({
+			  text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html',
+			})
+		  }
+
+		  shareButton32.addEventListener('click', share32)
+		  function share32() {
+			navigator.share({
+			  text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html',
+			})
+		  }
+
+		  shareButton33.addEventListener('click', share33)
+		  function share33() {
+			navigator.share({
+			  text: 'https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html',
 			})
 		  }
 	
@@ -1455,25 +1550,101 @@
 					shareiconButton29.innerHTML =
 				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
 					  '<p class="sm-do-share-cointainer-sharetitle"><b>공유 방법:</b></p>' +
-						'<a href="mailto:?subject=알파 제타 프로바이오틱스&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html">' +
+						'<a href="mailto:?subject=알파 제타 프로바이오틱스&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html">' +
 						'<div class="sm-do-share-icon-cont share-tooltip">' +
 						'<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
 						'<span class="share-tooltiptext">이메일로 공유</span>' +
 						'</div>' +
 						'</a>' +
-						'<a href="sms:&body=알파 제타 프로바이오틱스: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html">' +
+						'<a href="sms:&body=알파 제타 프로바이오틱스: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html">' +
 						'<div class="sm-do-share-icon-cont share-tooltip">' +
 						'<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
 						'<span class="share-tooltiptext">SMS를 통해 공유</span>' +
 						'</div>' +
 						'</a>' +
-						'<a href="whatsapp://send?text=알파 제타 프로바이오틱스: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html">' +
+						'<a href="whatsapp://send?text=알파 제타 프로바이오틱스: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html">' +
 						'<div class="sm-do-share-icon-cont share-tooltip">' +
 						'<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
 						'<span class="share-tooltiptext">Whatsapp으로 공유</span>' +
 						'</div>' +
 						'</a>' +
 					'</div>';
+
+					shareiconButton30.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+					  '<p class="sm-do-share-cointainer-sharetitle"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Baocell Firming Cream&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+						'<span class="share-tooltiptext">이메일로 공유</span>' +
+						'</div></a>' +
+						'<a href="sms:&body=Baocell Firming Cream: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+						'<span class="share-tooltiptext">SMS를 통해 공유</span>' +
+						'</div></a>' +
+						'<a href="whatsapp://send?text=Baocell Firming Cream: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+						'<span class="share-tooltiptext">Whatsapp으로 공유</span>' +
+						'</div></a></div>';
+
+					shareiconButton31.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+					  '<p class="sm-do-share-cointainer-sharetitle"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Galacto Refining Booster&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+						'<span class="share-tooltiptext">이메일로 공유</span>' +
+						'</div></a>' +
+						'<a href="sms:&body=Galacto Refining Booster: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+						'<span class="share-tooltiptext">SMS를 통해 공유</span>' +
+						'</div></a>' +
+						'<a href="whatsapp://send?text=Galacto Refining Booster: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+						'<span class="share-tooltiptext">Whatsapp으로 공유</span>' +
+						'</div></a></div>';
+
+					shareiconButton32.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+					  '<p class="sm-do-share-cointainer-sharetitle"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Magnet Charcoal Cleanser&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+						'<span class="share-tooltiptext">이메일로 공유</span>' +
+						'</div></a>' +
+						'<a href="sms:&body=Magnet Charcoal Cleanser: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+						'<span class="share-tooltiptext">SMS를 통해 공유</span>' +
+						'</div></a>' +
+						'<a href="whatsapp://send?text=Magnet Charcoal Cleanser: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+						'<span class="share-tooltiptext">Whatsapp으로 공유</span>' +
+						'</div></a></div>';
+
+					shareiconButton33.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space3">' +
+					  '<p class="sm-do-share-cointainer-sharetitle"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Rice Ecto Repair Serum&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
+						'<span class="share-tooltiptext">이메일로 공유</span>' +
+						'</div></a>' +
+						'<a href="sms:&body=Rice Ecto Repair Serum: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/sms_2.svg" alt="">' +
+						'<span class="share-tooltiptext">SMS를 통해 공유</span>' +
+						'</div></a>' +
+						'<a href="whatsapp://send?text=Rice Ecto Repair Serum: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip">' +
+						'<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
+						'<span class="share-tooltiptext">Whatsapp으로 공유</span>' +
+						'</div></a></div>';
 
 			  }else{
 				  shareiconButton1.innerHTML =
@@ -1911,19 +2082,47 @@
 				  shareiconButton29.innerHTML =
 				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
 					  '<p class="sm-do-share-cointainer-sharetitle2"><b>공유 방법:</b></p>' +
-						'<a href="mailto:?subject=알파 제타 프로바이오틱스&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html">' +
+						'<a href="mailto:?subject=알파 제타 프로바이오틱스&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html">' +
 						'<div class="sm-do-share-icon-cont share-tooltip">' +
 						'<img src="iboblast/USIBO/EN/img/email_2.svg" alt="">' +
 						'<span class="share-tooltiptext">이메일로 공유</span>' +
 						'</div>' +
 						'</a>' +
-						'<a href="whatsapp://send?text=알파 제타 프로바이오틱스: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/index.html">' +
+						'<a href="whatsapp://send?text=알파 제타 프로바이오틱스: https://media.enzactainternational.com/iboblast/docs/KR/Documents/ZetaProBiotics/KO/KO_index.html">' +
 						'<div class="sm-do-share-icon-cont share-tooltip">' +
 						'<img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt="">' +
 						'<span class="share-tooltiptext">Whatsapp으로 공유</span>' +
 						'</div>' +
 						'</a>' +
 				  '</div>';
+				  shareiconButton30.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+					  '<p class="sm-do-share-cointainer-sharetitle2"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Baocell Firming Cream&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/email_2.svg" alt=""><span class="share-tooltiptext">이메일로 공유</span></div></a>' +
+						'<a href="whatsapp://send?text=Baocell Firming Cream: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cream/cream.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt=""><span class="share-tooltiptext">Whatsapp으로 공유</span></div></a></div>';
+				  shareiconButton31.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+					  '<p class="sm-do-share-cointainer-sharetitle2"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Galacto Refining Booster&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/email_2.svg" alt=""><span class="share-tooltiptext">이메일로 공유</span></div></a>' +
+						'<a href="whatsapp://send?text=Galacto Refining Booster: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/booster/booster.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt=""><span class="share-tooltiptext">Whatsapp으로 공유</span></div></a></div>';
+				  shareiconButton32.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+					  '<p class="sm-do-share-cointainer-sharetitle2"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Magnet Charcoal Cleanser&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/email_2.svg" alt=""><span class="share-tooltiptext">이메일로 공유</span></div></a>' +
+						'<a href="whatsapp://send?text=Magnet Charcoal Cleanser: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/cleanser/cleanser.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt=""><span class="share-tooltiptext">Whatsapp으로 공유</span></div></a></div>';
+				  shareiconButton33.innerHTML =
+				  '<div class="sm-do-share-cointainer sm-do-share-cointainer-space2">' +
+					  '<p class="sm-do-share-cointainer-sharetitle2"><b>공유 방법:</b></p>' +
+						'<a href="mailto:?subject=Rice Ecto Repair Serum&body=https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/email_2.svg" alt=""><span class="share-tooltiptext">이메일로 공유</span></div></a>' +
+						'<a href="whatsapp://send?text=Rice Ecto Repair Serum: https://media.enzactainternational.com/iboblast/docs/KR/Documents/K_Lumen/KO/serum/serum.html">' +
+						'<div class="sm-do-share-icon-cont share-tooltip"><img src="iboblast/USIBO/EN/img/whatsapp_2.svg" alt=""><span class="share-tooltiptext">Whatsapp으로 공유</span></div></a></div>';
 						
 				  
 			}
@@ -1932,4 +2131,3 @@
 		
 		
 	</body>
-	

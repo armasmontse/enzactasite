@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=860, initial-scale=1.0">
+<title>Rice Ecto Repair Serum Detail Page</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
+  }
+  body {
+    min-width: 860px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+  }
+  .detail-wrap {
+    width: 860px;
+    margin: 0 auto;
+    padding: 0;
+    background: #ffffff;
+    line-height: 0;
+    font-size: 0;
+  }
+  .media-block {
+    display: block;
+    width: 860px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  .media {
+    display: block;
+    width: 860px;
+    max-width: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+  }
+  video.media {
+    object-fit: contain;
+    background: #ffffff;
+  }
+</style>
+</head>
+<body>
+<main class="detail-wrap" aria-label="Rice Ecto Repair Serum detail page">
+<section class="media-block" data-file="1(51).jpg">
+  <img class="media" src="img/1.jpg" alt="1(51).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="2(17).mp4">
+  <video class="media" autoplay muted loop playsinline preload="auto" controlslist="nodownload" aria-label="2(17).mp4">
+    <source src="img/2.mp4" type="video/mp4">
+  </video>
+</section>
+<section class="media-block" data-file="3(24).gif">
+  <img class="media" src="img/3.gif" alt="3(24).gif" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="4(23).gif">
+  <img class="media" src="img/4.gif" alt="4(23).gif" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="5(26).jpg">
+  <img class="media" src="img/5.jpg" alt="5(26).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="6(31).jpg">
+  <img class="media" src="img/6.jpg" alt="6(31).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="7(19).jpg">
+  <img class="media" src="img/7.jpg" alt="7(19).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="8(27).jpg">
+  <img class="media" src="img/8.jpg" alt="8(27).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="9(14).jpg">
+  <img class="media" src="img/9.jpg" alt="9(14).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="10(6).gif">
+  <img class="media" src="img/10.gif" alt="10(6).gif" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="11(7).gif">
+  <img class="media" src="img/11.gif" alt="11(7).gif" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="12(3).mp4">
+  <video class="media" autoplay muted loop playsinline preload="auto" controlslist="nodownload" aria-label="12(3).mp4">
+    <source src="img/12.mp4" type="video/mp4">
+  </video>
+</section>
+<section class="media-block" data-file="13(29).jpg">
+  <img class="media" src="img/13.jpg" alt="13(29).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="14(15).jpg">
+  <img class="media" src="img/14.jpg" alt="14(15).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="15(8).jpg">
+  <img class="media" src="img/15.jpg" alt="15(8).jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="16.jpg">
+  <img class="media" src="img/16.jpg" alt="16.jpg" loading="eager" decoding="sync">
+</section>
+<section class="media-block" data-file="17(4).jpg">
+  <img class="media" src="img/17.jpg" alt="17(4).jpg" loading="eager" decoding="sync">
+</section>
+</main>
+<script>
+  // 안정적인 자동 재생: 브라우저 정책상 자동 재생이 막힐 경우 사용자가 클릭하면 재생됩니다.
+  document.querySelectorAll('video').forEach(function(video) {
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    var tryPlay = function() { video.play().catch(function() {}); };
+    video.addEventListener('loadeddata', tryPlay, { once: true });
+    document.addEventListener('click', tryPlay, { once: true });
+  });
+</script>
+</body>
+</html>
