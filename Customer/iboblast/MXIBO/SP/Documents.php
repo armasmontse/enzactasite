@@ -158,7 +158,7 @@ hr
         <!--Formato Autoship y Cashautoship - PUBLICAR EL 01 DE ENERO 2025 - 10:05am -->
         <div class="col_3 mleft mbottom20"><span class="green bold p12"> Formato de Autoship y Cash Autoship</span></div>
     <div class="col_3 alleft p10">Este formato te permitirá programar tus compras.</div>
-    <div class="col_1 alcenter"><a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/MX/Documents/C-002-MX1-251222-s.pdf"><img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down"/></a></div>
+    <div class="col_1 alcenter"><a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/MX/Documents/Autoship_260904.pdf"><img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down"/></a></div>
     <div class="col_2 mright alleft p10"><a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/MX/Documents/C-002-MX1-140909-training-s.pdf">Cómo llenarlo</a></div>
 
     <div class="clear"></div>
@@ -247,7 +247,7 @@ hr
     <!-- folletos nuevos START - PUBLICAR EL 01 DE ENERO 2025 - 10:05am-->
     <div class="col_3 mleft mbottom20"><span class="green bold p12"><img width="23" height="23" alt="Down" src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/images/newdoc-icon.svg"> Folleto de Opciones de Inscripción</span></div>
     <div class="col_3 alleft p10"> ¡Elige el paquete de tu preferencia y comienza tu negocio con éxito! </div>
-    <div class="col_1 alcenter"> <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/MX/Documents/Flyer-Inscripciones-251222-s.pdf"><img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" /></a> </div>
+    <div class="col_1 alcenter"> <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/MX/Documents/Inscripciones_260812.pdf"><img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" /></a> </div>
 
     <div class="clear"></div> 
     <hr /> 
