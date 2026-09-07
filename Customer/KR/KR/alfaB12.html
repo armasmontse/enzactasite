@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="KR/KR/Products/css/fisheye-menu.css" />
+<script src="KR/KR/Products/scripts/fisheye.js"></script>
+
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+$j(document).ready(function(){
+  $j("#fisheye_menu a").each(function(){
+     var href = $j(this).attr("href");
+     href = "KR/KR/"+href.substr(href.indexOf("Products"));
+     /*alert(href);*/
+	  var href2 = $j(this).attr("href2");
+	  href2 = "KR/KR/Products/alfaB12.html";
+	  /*alert(href2);*/
+     $j(this).attr({ href: "# "});
+     $j(this).click(function(){
+        $j("#show").load(href);
+     });
+	 $j("#show").load(href2);
+		 /*alert(href2);*/
+  });
+});
+</script>
+<!--<link rel="stylesheet" href="Products/css/fisheye-menu.css" />
+<script src="Products/scripts/fisheye.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+   $("#fisheye_menu a").each(function(){
+      var href = $(this).attr("href");
+	  href = ""+href.substr(href.indexOf("Products"));
+	  /*alert(href);*/
+      $(this).attr({ href: "# "});
+      $(this).click(function(){
+         $("#show").load(href);
+      });
+   });
+});
+</script>
+<link href="../../templates/JavaBeanKorea/css/template.css" rel="stylesheet" type="text/css" />
+<link href="../../templates/JavaBeanKorea/css/styles.css" rel="stylesheet" type="text/css" />
+<div id="Container">
+<div class="Container_content">-->
+  <div class="col_8 mleft mright RollProducts" >
+  <ul id="fisheye_menu">
+	    <li><a href="Products/alfaPXPFORTE.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_alfaPXPFORTE-200623.jpg" alt="" /><span></span></a></li>
+		<li><a href="Products/alfaPXPPLUS.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_alfaPXPPLUS-200623.jpg" alt="" /><span></span></a></li>
+        <li><a href="Products/alfaCAFENUTRA.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_newCAFENUTRA.jpg" alt="" /><span></span></a></li>
+        <li><a href="Products/alfaCAFENUTRAlite.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_newCAFENUTRAlite.jpg" alt="" /><span></span></a></li>
+        <li><a href="Products/alfaCAFELatte.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_alfaCAFELatte-210706.jpg" alt="" /><span></span></a></li>
+        <li><a href="Products/alfaB12.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_alfaB12.jpg" alt="" /><span></span></a></li>
+        <li><a href="Products/alfaRXP.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_alfaRXP-200428.jpg" alt="" /><span></span></a></li>
+        <li><a href="Products/alfaAshwagandha.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_alfaAshwagandha.jpg" alt="" /><span></span></a></li>
+        <!-- <li><a href="Products/gummies-pxp4me.html" onclick="return false;" class=""><img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/little_PXP4ME-230321-v1.jpg" alt="" /><span></span></a></li> -->
+      </ul>
+    </div>
+    <div class="col_12 BackProducts" id="show">
+      <div class="col_8 mleft Products_margin">
+      <spam><!--spanish--></spam>
+        <!--none B12-->
+      </div>
+      <div class="col_4 mright alcenter" > <img src="https://enzactamedia.enzacta.com/prod/Customer/images/KR/Products/alfaB12.jpg" width="233" height="280">
+      </div>
+    </div>
+<!--<div class="clear"></div>
+</div>
+</div> 
+-->
