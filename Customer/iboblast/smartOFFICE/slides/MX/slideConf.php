@@ -40,8 +40,8 @@
 	
 	<!-- 1 --->
 	<div>
-		<a href="https://wwwmx.enzacta.com/mx/producto/alfa-hfi-2" target="_blank">
-			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260803_Banner_SO_HFI_month.jpg" width="700" height="110" alt="alfa HFI | Producto del mes" />
+		<a href="https://wwwmx.enzacta.com/mx/producto/magnesio/" target="_blank">
+			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260903_Banner_SO_M4gnesio_month.jpg" width="700" height="110" alt="M4gnesio | Producto del mes" />
 		</a>
     </div>
 	<!-- 2 --->
