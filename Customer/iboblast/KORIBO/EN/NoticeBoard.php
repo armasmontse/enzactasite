@@ -116,6 +116,62 @@ hr {
     <div class="col_1 alcenter bo-ibo-title Notice-3rd-COL">View:</div>
     <div class="col_1 alleft bo-ibo-title Notice-4rd-COL">Post date:</div>
 
+    <!--  October Credit card free Installment payment -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;166</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">October Credit card free Installment payment</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/OctCreditPayment_EN_260929.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">9/29/2026</div>
+    <div class="clear"></div>
+    <hr />
+
+    <!--  ENZACTA Toothpaste Sales Discontinuation Notice -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;165</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">ENZACTA Toothpaste Sales Discontinuation Notice</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/ToothpasteDiscontinu_EN_260929.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">9/28/2026</div>
+    <div class="clear"></div>
+    <hr />
+
+    <!--  ENZACTA Treatment Sales Discontinuation Notice -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;164</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">ENZACTA Treatment Sales Discontinuation Notice</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/TreatmentDiscontinu_EN_260929.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">9/27/2026</div>
+    <div class="clear"></div>
+    <hr />
+
+    <!--  ENZACTA Shampoo Sales Discontinuation Notice -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;163</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">ENZACTA Shampoo Sales Discontinuation Notice</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/ShampooDiscontinu_EN_260929.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">9/27/2026</div>
+    <div class="clear"></div>
+    <hr />
+
     <!--  Business Days in October -->
     <div class="col_3 mleft Notice-1st-COL">
         <span class="green bold p12">&nbsp; &nbsp; &nbsp;162</span>
