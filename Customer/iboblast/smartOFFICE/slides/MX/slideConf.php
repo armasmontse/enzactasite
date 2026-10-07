@@ -40,14 +40,14 @@
 	
 	<!-- 1 --->
 	<div>
-		<a href="https://enzapi.enzacta.com/public/event-registration" target="_blank">
-			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260909_Banner_SO_SU26.jpg" width="700" height="110" alt="Registro de Evento" />
+		<a href="https://wwwmx.enzacta.com/mx/producto/energia-y-proteccion/" target="_blank">
+			<img src="https://media.enzactainternational.com/iboblast/slides/MX/261002_Banner_SO_Cafe_month.jpg" width="700" height="110" alt="Café Fusion Signature Blend | Producto del mes" />
 		</a>
     </div>
 	<!-- 2 --->
 	<div>
-		<a href="https://wwwmx.enzacta.com/mx/producto/magnesio/" target="_blank">
-			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260903_Banner_SO_M4gnesio_month.jpg" width="700" height="110" alt="M4gnesio | Producto del mes" />
+		<a href="https://enzapi.enzacta.com/public/event-registration" target="_blank">
+			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260909_Banner_SO_SU26.jpg" width="700" height="110" alt="Registro de Evento" />
 		</a>
     </div>
 	<!-- 3 --->
