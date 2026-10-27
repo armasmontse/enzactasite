@@ -117,6 +117,20 @@ hr {
     <div class="col_1 alleft bo-ibo-title Notice-4rd-COL">게시일:</div>
     <div class="clear"></div>
 
+    <!--  026 ENZACTA Convention Ticket Sales -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;170</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">컨벤션 티켓 판매 안내</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/ENZConventionTicket_KO_261022.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">10/22/2026</div>
+    <div class="clear"></div>
+    <hr />
+
     <!--  Notice: 2026 Year-End Party -->
     <div class="col_3 mleft Notice-1st-COL">
         <span class="green bold p12">&nbsp; &nbsp; &nbsp;169</span>
