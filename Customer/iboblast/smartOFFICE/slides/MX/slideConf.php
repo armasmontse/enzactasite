@@ -3,9 +3,9 @@
 		/* 4 Slides */
 		/* width: 140px; */
 		/* 5 Slides */
-		/* width: 170px; */
+		width: 170px;
 		/* 6 Slides */
-		width: 200px;
+		/* width: 200px; */
 		/* 7 Slides */
 		/* width: 225px; */
 		/* 9 Slides */
@@ -46,32 +46,26 @@
     </div>
 	<!-- 2 --->
 	<div>
-		<a href="https://enzapi.enzacta.com/public/event-registration" target="_blank">
-			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260909_Banner_SO_SU26.jpg" width="700" height="110" alt="Registro de Evento" />
-		</a>
-    </div>
-	<!-- 3 --->
-	<div>
 		<a href="https://wwwmx.enzacta.com/mx/producto/paquete-biovital-360" target="_blank">
 			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260701_Banner_SO_BioVital.jpg" width="700" height="110" alt="Paquete Biovital " />
 		</a>
     </div>
 
-	<!-- 4 -->
+	<!-- 3 -->
 	<div>
 		<a href="https://www.youtube.com/watch?v=zulG9qK5v6M" target="_blank">
 			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260505_Banner_SO_links.jpg" width="700" height="110" alt=" Links personalizados con ENZACTA" />
 		</a>
 	</div>
 
-	<!-- 5 -->
+	<!-- 4 -->
 	<div>
 		<a href="https://media.enzactainternational.com/iboblast/IBOBlast2026/IBOBlastMX26/blastMXSP260116et.html" target="_blank">
 			<img src="https://media.enzactainternational.com/iboblast/slides/MX/PlanReferidos2026-smartOFFICE.jpg" width="700" height="110" alt="Plan de Referidos" />
 		</a>
 	</div>
 
-	<!-- 6 -->
+	<!-- 5 -->
 	<div>
 		<a href="<?php echo $final_url; ?>" target="_blank">
 			<img src="https://media.enzactainternational.com/iboblast/slides/MX/260505_Banner_SO_Catalogo.jpg" width="700" height="110" alt="Descarga nuestro catálogo" />
