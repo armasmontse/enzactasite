@@ -117,6 +117,20 @@ hr {
     <div class="col_1 alleft bo-ibo-title Notice-4rd-COL">게시일:</div>
     <div class="clear"></div>
 
+    <!--  Business Days in December -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;174</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">12월 영업안내</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/DecBusinessDays_KO_261120.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">11/20/2026</div>
+    <div class="clear"></div>
+    <hr />
+
     <!--  Consolidation of Document Submission Channels -->
     <div class="col_3 mleft Notice-1st-COL">
         <span class="green bold p12">&nbsp; &nbsp; &nbsp;173</span>
