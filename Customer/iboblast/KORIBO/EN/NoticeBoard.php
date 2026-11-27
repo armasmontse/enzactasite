@@ -116,6 +116,20 @@ hr {
     <div class="col_1 alcenter bo-ibo-title Notice-3rd-COL">View:</div>
     <div class="col_1 alleft bo-ibo-title Notice-4rd-COL">Post date:</div>
 
+    <!--  December Credit card free Installment payment -->
+    <div class="col_3 mleft Notice-1st-COL">
+        <span class="green bold p12">&nbsp; &nbsp; &nbsp;175</span>
+    </div>
+    <div class="col_3 alleft p10 Notice-2nd-COL">December Credit card free Installment payment</div>
+    <div class="col_1 alcenter Notice-3rd-COL">
+        <a target='_blank' href="https://media.enzactainternational.com/iboblast/docs/KR/Notice/DecCreditInstallmentPayment_EN_261127.png">
+            <img src="https://enzactamedia.enzacta.com/prod/Customer/iboblast/MXIBO/SP/images/downloadarrow-icon.svg" width="20" height="20" alt="Down" />
+        </a>
+    </div>
+    <div class= "col_3 alleft p10 Notice-4rd-COL">11/27/2026</div>
+    <div class="clear"></div>
+    <hr />
+
     <!--  Business Days in December -->
     <div class="col_3 mleft Notice-1st-COL">
         <span class="green bold p12">&nbsp; &nbsp; &nbsp;174</span>
